@@ -1,0 +1,36 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "appointments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "appointmentPerson",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "appointmentTime",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "asistencia",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "asistenciapersona",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "checkin",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cosechadores",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
